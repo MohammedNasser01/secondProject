@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    background-color: black;
+    height: 5vh;
+    width: 100%;
+}
+
+#navbarList{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 0.5% 0;
+}
+
+
+.navbarListItem{
+    color: white;
+    text-decoration: none;
+    margin-left: 1%;
+    padding: 0.5%;
+    float: left;
+}
+
+.navbarListLink{
+    text-decoration: none;
+    color: white;
+
+}
+
+.navbarListItem:hover{
+    background-color: gray;
+}
+
+
+#panelContainer{
+    height: 95vh;
+    background-color: rgb(223, 215, 215);
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.panelContainer_section{
+    display: flex;
+    flex-flow: row wrap;
+
+    width: 90%;
+    height: 90%;
+    padding: 2.5% 5%;
+
+}
+
+#panelContainer_section2{
+    width: 20%;
+}
+
+.panelContainer_sectionPart{
+    height: 48%;
+    width: 100%;
+    padding: 0 1%;
+    background-color: white;
+}
+
+.part_textBox{
+    height: 30%;
+    padding: 1%;
+}
+
+.part_imgBox{
+    background-color: gray;
+    height: 25%;
+    padding: 1%
+}
+
+
+
+.panelContainer_sectionPart2{
+    background-color: white;
+    width: 100%;
+    padding: 2%;
+    margin-top: 5%;
+}
+
+.part_textBox2{
+    height: 20%;
+}
+
+.part_imgBox2{
+    background-color: gray;
+    height: 40%;
+    width: 90%;
+    padding: 5%;
+}
+
